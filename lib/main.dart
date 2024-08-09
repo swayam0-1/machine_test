@@ -1,8 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:machine_test/views/auth/login_screen.dart';
-import 'package:machine_test/views/auth/signup_screen.dart';
-import 'package:machine_test/views/home_screen.dart';
-import 'package:machine_test/views/otp_screen.dart';
 import 'package:machine_test/views/splash_screen.dart';
 
 
@@ -22,7 +18,7 @@ class MyApp extends StatelessWidget {
       primarySwatch: Colors.cyan,
       visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home:HomeScreen(),
+      home:SplashScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
